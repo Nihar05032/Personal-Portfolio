@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Open+Sans:ital,wght@0,500;1,500&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Open Sans", sans-serif;
+}
+@layer base {
+  html {
+    font-family: var(--font-display);
+  }
+  body {
+    background-color: #000000;
+    overflow-x: hidden;
+  }
+}
